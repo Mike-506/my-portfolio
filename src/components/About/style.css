@@ -1,0 +1,19 @@
+.introduction .intro-p:first-of-type {
+  margin-top: 0;
+}
+
+.introduction .job-pls {
+  font-weight: 500;
+  background-color: #2A54F5;
+  background-image: var(--gradient-text-color-certification);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .introduction .intro-p:first-of-type {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.section-area {
+  margin-top: 50px;
+  font-weight: bold;
+
+  a {
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+
+    .line {
+      width: 40px;
+      height: 2px;
+      background-color: #efefef;
+      transition: width .3s linear;
+      -webkit-transition: width .3s linear;
+      -moz-transition: width .3s linear;
+      -ms-transition: width .3s linear;
+      -o-transition: width .3s linear;
+    }
+
+    p {
+      color: #efefef;
+      font-size: 13px;
+      margin-left: 12px;
+      transition: color .1s ease-in;
+      -webkit-transition: color .1s ease-in;
+      -moz-transition: color .1s ease-in;
+      -ms-transition: color .1s ease-in;
+      -o-transition: color .1s ease-in;
+    }
+  }    
+
+  a:hover, .active {
+    .line{
+    width: 75px;
+    background-color: #007bff;
+    }
+    p {
+      color: #007bff;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .section-area {
+    display: none;
+  } 
+}

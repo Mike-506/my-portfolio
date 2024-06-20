@@ -1,0 +1,67 @@
+.right {
+  float: right;
+  width: 52%;
+  margin-bottom: 50px;
+}
+
+.right .content {
+  vertical-align: top;
+}
+
+.introduction,.education, .projects {
+  padding-top: 50px;
+}
+
+.right h4 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.right .content {
+  margin: 0 20px 40px;
+}
+
+.portfolio-desc {
+  width: 75%;
+  text-align: start;
+  font-size: 15px;
+  margin-left: 60px;
+  color: var(--desc-color);
+}
+
+.portfolio-desc a {
+  background-color: #2A54F5;
+  background-image: var(--gradient-text-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .right .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .right {
+    width: 100%;
+  }
+  /* The sticky values in section titles will only applied when the screen is not splitted */
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: var(--sticky-bg-color);
+    width: 108%;
+    margin-bottom: 20px;
+    height: fit-content;
+  }
+  
+  .is-sticky {
+    position: fixed;
+    bottom: 0;
+  }
+}

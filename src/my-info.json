@@ -1,0 +1,19 @@
+{
+  "name": "Michael Vega",
+  "position": "Junior Frontend Developer",
+  "description": "A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product.",
+  "socialNet": {"linkedin": "https://www.linkedin.com/in/mike-506cr/", "github": "https://github.com/Mike-506", "mail": "mailto:mvegar94@gmail.com"},
+  "about": ["Hi, I'm Michael, I consider myself a results-oriented professional, dynamic, highly organized, innovative, fast learner and capable of performing multiple tasks. Oriented to improve every day to help companies/people achieve their vision and mission, and at the same time, achieve my personal goals. Committed to delivering high-quality results.", "I enjoy being the bridge between engineering and design, and feel right at home as a front end engineer. I'm experienced in developing and designing webs, from simple landing pages to full-fledged web apps.", "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me."],
+  "skills": ["HTML", "CSS3", "SCSS", "JavaScript", "SQL", "ReactJS", "NodeJs", "TailwindCSS", "Bootstrap", "VSCode", "Postman", "NPM", "JSON", "Git", "Github", "Responsive Design", "UI/UX Design"],
+  "education": {"name": "Mimo", "description": ["• HTML essentials and CSS techniques for styling web pages.",  "• Core JavaScript programming concepts and single-page application development with React.",
+  "• Backend API creation using NodeJS and database management with SQL.",
+  "• Full-stack application development."], "certificate": "https://drive.google.com/file/d/1MKk8WFTo-KpyyaoDOLAnws0GQUSgLh9P/view?usp=sharing", "grade": "Full Stack Development"},
+  "photo": "https://avatars.githubusercontent.com/u/133054394?s=400&u=4f723b58e7471ae855e8c3faffa186dec1b82e86&v=4",
+  "projects": [
+    {"name": "Click Counter", "url": "https://mike-506.github.io/click-counter/", "gitUrl": "https://github.com/Mike-506/click-counter", "img": "https://raw.githubusercontent.com/Mike-506/my-1st-API/main/src/imgs/proyects/Click-Counter.png", "description": "This is a simple click counter built with React.js, you can increase, decrease or reset the click count and if you want there is also a dark/light switch to change the theme color of the page."},
+    {"name": "Palindrome Checker", "url": "https://mike-506.github.io/palindrome-checker/", "gitUrl": "https://github.com/Mike-506/palindrome-checker", "img": "https://raw.githubusercontent.com/Mike-506/my-1st-API/main/src/imgs/proyects/Palindrome%20Checker.png", "description": "App built with VanillaJS, that checks if is palindrome or not. Palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing."},
+    {"name": "Pokédex", "url": "https://mike-506.github.io/pokedex/", "gitUrl": "https://github.com/Mike-506/ pokedex", "img": "https://raw.githubusercontent.com/Mike-506/my-1st-API/main/src/imgs/proyects/Pokedex.png", "description": "This is a pokédex built with ReactJS, you can find more than 1k Pokémon. There is a pagination area where you can navigate between pages to see more Pokémon. You can also find a search engine that searches by Pokémon name."},
+    {"name": "Lion Cars", "url": "https://lion-cars.vercel.app/", "gitUrl": "https://github.com/Mike-506/lion-cars", "img": "https://raw.githubusercontent.com/Mike-506/my-1st-API/main/src/imgs/proyects/Lion-Cars.png", "description": "This is a small catalog of some of my favorite cars, built with NextJS and TailwindCSS. You will see an information card about each car and also a page with more information and a gallery with some cool pics."}
+  ],
+  "resume": "https://drive.google.com/file/d/1J9uei3wKKWsiTIaeEZueX_RsD5LnB-TN/view?usp=sharing"
+}

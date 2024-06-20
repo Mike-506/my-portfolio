@@ -1,0 +1,39 @@
+.left {
+  width: 48%;
+  height: 100%;
+  text-align: start;
+  position: fixed;
+  display: flex;
+}
+
+.left .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  .left {
+    display: block;
+    width: 100%;
+    position: static;
+  }
+
+  .left img {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left .content {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-left: 2%;
+    padding-right: 0;
+  }
+}
