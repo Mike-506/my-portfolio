@@ -15,5 +15,5 @@
     {"name": "Pokédex", "url": "https://mike-506.github.io/pokedex/", "gitUrl": "https://github.com/Mike-506/ pokedex", "img": "https://raw.githubusercontent.com/Mike-506/my-1st-API/main/src/imgs/proyects/Pokedex.png", "description": "This is a pokédex built with ReactJS, you can find more than 1k Pokémon. There is a pagination area where you can navigate between pages to see more Pokémon. You can also find a search engine that searches by Pokémon name."},
     {"name": "Lion Cars", "url": "https://lion-cars.vercel.app/", "gitUrl": "https://github.com/Mike-506/lion-cars", "img": "https://raw.githubusercontent.com/Mike-506/my-1st-API/main/src/imgs/proyects/Lion-Cars.png", "description": "This is a small catalog of some of my favorite cars, built with NextJS and TailwindCSS. You will see an information card about each car and also a page with more information and a gallery with some cool pics."}
   ],
-  "resume": ""
+  "resume": "https://drive.google.com/file/d/1J9uei3wKKWsiTIaeEZueX_RsD5LnB-TN/view?usp=sharing"
 }
